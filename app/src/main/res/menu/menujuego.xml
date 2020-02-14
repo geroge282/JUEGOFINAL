@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/icon_save1"
+        android:contentDescription="guardar"
+        android:icon="@drawable/ic_save"
+        android:title="guardar"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/icon_reiniciar"
+        android:contentDescription="reiniciar"
+        android:icon="@drawable/ic_reiniciar"
+        android:title="reiniciar"
+
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/icon_stop"
+        android:contentDescription="salir"
+        android:icon="@drawable/ic_stop"
+        android:title="salir"
+        app:showAsAction="always" />
+
+</menu>
